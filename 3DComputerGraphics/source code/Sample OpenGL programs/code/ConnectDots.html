@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title>ConnectDots program</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+</head>
+
+<body>
+
+<p align="center"><big><big><big><u><strong>ConnectDots</strong></u></big></big></big></p>
+
+<p><strong>ConnectDots</strong> is sample C code illustrating the use of OpenGL. &nbsp; It
+is intended to accompany the book <em><strong>3D Computer Graphics: A mathematical
+approach with OpenGL</strong>, </em>by S. Buss, Cambridge University Press, 2003. &nbsp;
+However, it can be used independently as well.</p>
+
+<p><strong>ConnectDots </strong>allows the user to specify points with mouse clicks.
+&nbsp; The points are drawn connected with straight lines. &nbsp;&nbsp;This illustrates
+how the OpenGL GLUT routines can be used to capture mouse clicks.&nbsp; The C code
+consists of two source files, <strong>ConnectDots.c</strong> and <strong>ConnectDots.h.</strong>&nbsp;&nbsp;
+There are several options available for downloading this program: 
+
+<ul>
+  <li><a href="ConnectDotsProject.zip">ConnectDotsProject.zip</a>: A zip file, including the
+    source files, Microsoft Visual C++ workspace and project files, and Win32 executable.</li>
+  <li><a href="ConnectDots.zip">ConnectDots.zip</a>: A zip file, with sources files and the
+    executable.</li>
+  <li><a href="ConnectDots.c">ConnectDots.c</a> and <a href="ConnectDots.h">ConnectDots.h</a>
+    and <a href="ConnectDots.exe">ConnectDots.exe</a>:&nbsp; Download the two source files and
+    the executable, one at a time.</li>
+</ul>
+
+<p><strong>Things to try out:</strong> 
+
+<ol>
+  <li>Compile and run the program.&nbsp; Test out the keyboard controls.&nbsp; The left mouse
+    button adds a point.&nbsp; The commands &quot;f&quot; and &quot;l&quot;&nbsp; remove the
+    first and last point from the list of points (respectively).&nbsp; If you go over 64
+    points, the first point(s) are removed.</li>
+  <li>Observe how the program uses an OpenGL GLUT callback to capture mouse clicks and
+    determine their&nbsp; x and y&nbsp; locations.</li>
+  <li>Experiment with turning off and on (a) the thick lines and points, (b) the
+    anti-aliasing.&nbsp; What difference does this make to the appearance and the speed of the
+    graphics?&nbsp; Your results may vary widely depending on your implementation of OpenGL.</li>
+  <li>MAJOR PROJECT: write a program that generates Catmull-Rom splines or Overhauser splines
+    that interpolate the dots.&nbsp; Do something appropriate at the endpoints to make the
+    first and last points be interpolated.</li>
+</ol>
+
+<p>&nbsp;</p>
+</body>
+</html>
